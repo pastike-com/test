@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "plugin:prettier/recommended",
+    "plugin:sonarjs/recommended",
+    "standard"
+  ],
+  "ignorePatterns": ["build"],
+  "plugins": ["prettier", "sonarjs"],
+  "rules": {
+    "indent": "off",
+    "multiline-ternary": "off",
+    "no-unused-vars": "off",
+    "space-before-function-paren": "off"
+  }
+}
